@@ -18,11 +18,6 @@ public class LoginTest
 //		d.manage().window().maximize();
 		d.get("https://www.amazon.com/");
 		d.findElement(By.cssSelector("a[onclick='window.location.reload()']")).click();
-		d.findElement(By.cssSelector("span[class='nav-line-2 ']")).click();
-		d.findElement(By.xpath("//input[@id='ap_email']")).sendKeys("narendrareddy9642@gmail.com");
-	    d.findElement(By.id("continue")).click();
-		d.findElement(By.xpath("//input[@id='ap_password']")).sendKeys(password);
-		d.findElement(By.className("a-button-input")).click();
 		d.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("new shirts");
 		d.findElement(By.id("nav-search-submit-button")).click();
 
