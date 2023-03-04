@@ -25,6 +25,7 @@ public class LoginTest
 		d.findElement(By.className("a-button-input")).click();
 		d.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("new shirts");
 		d.findElement(By.id("nav-search-submit-button")).click();
+		
 		d.close();
 	}
 	
